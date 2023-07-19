@@ -2,22 +2,14 @@
 namespace HelloWorld
 {
     class Program {
-        static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
-            int n = 42;
-            Console.WriteLine(n);
-            string s = "This is a string";
-            Console.WriteLine(s);
-            Console.WriteLine(s.Length);
+        public static void _HelloWorld() {
+          Console.WriteLine("Hello world!!");
+        }
+        
+        public static void Main(string[] args) {
+          _HelloWorld();
         }
     }
 }
-
-/*namespace Test
-{
-    class TestScript {
-
-    }
-}*/
 
 // to run: dotnet build && dotnet run
